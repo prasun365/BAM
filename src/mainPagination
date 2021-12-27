@@ -1,0 +1,22 @@
+import React, { Component } from "react";
+import PaginacionTabla from "PaginacionTabla/PaginacionTabla";
+.
+.
+.
+<table className="table table-hover">
+  <thead>
+    <tr>
+      <th>Id. pedido</th>
+      <th>Agregado</th>
+      <th>Despacho</th>
+      <th>Cliente</th>
+      <th />
+    </tr>
+  </thead>
+  <PaginacionTabla
+    itemsperpage={this.state.itemsperpage}
+    nocolumns={this.state.nocolumns}
+    items={filas}
+    pagesspan={4}
+  />
+</table>
